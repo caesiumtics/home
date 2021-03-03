@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 """
-# First Streamlit app with example template!
+# Simple Streamlit app by KS
 """
 
 with st.echo(code_location='below'):
