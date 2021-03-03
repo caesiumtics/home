@@ -7,6 +7,10 @@ import streamlit as st
 # load and show an image with Pillow
 from PIL import Image
 
+# load and display an image with Matplotlib
+from matplotlib import image
+from matplotlib import pyplot
+
 """
 # Simple Streamlit app by KS
 """
@@ -14,11 +18,11 @@ from PIL import Image
 with st.echo(code_location = 'below'):
     total_points = st.slider("Show image?", 0, 1, 0)
     
-    # Open the image form working directory
-    image = Image.open('AE.jpg')
-    # summarize some details about the image
-    print(image.format)
-    print(image.size)
-    print(image.mode)
-    # show the image
-    load_image.show()
+    # load image as pixel array
+    image = image.imread('kolala.jpeg')
+    # summarize shape of the pixel array
+    print(image.dtype)
+    print(image.shape)
+    # display the array of pixels as an image
+    pyplot.imshow(image)
+    pyplot.show()
