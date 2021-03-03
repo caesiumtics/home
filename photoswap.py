@@ -4,9 +4,6 @@ import math
 import pandas as pd
 import streamlit as st
 
-# load and show an image with Pillow
-from PIL import Image
-
 # load and display an image with Matplotlib
 from matplotlib import image
 from matplotlib import pyplot
