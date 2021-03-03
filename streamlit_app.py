@@ -1,5 +1,5 @@
 from collections import namedtuple
-from altair as alt
+import altair as alt
 import math
 import pandas as pd
 import streamlit as st
