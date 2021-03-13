@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 """
-# Simple Streamlit app by KS
+# Simple Streamlit app
 """
 st.write("About me: [here](https://www.linkedin.com/in/ksambath/)")
 
